@@ -1,0 +1,45 @@
+/* Основные стили для страницы статьи */
+.article-page {
+    min-height: 100vh;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Стили для светлой темы */
+  .light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Стили для тёмной темы */
+  .dark-theme {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  /* Общие стили для кнопок */
+  .button {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+  }
+  
+  /* Стили для кнопок в светлой теме */
+  .light-theme .button {
+    background-color: #e0e0e0;
+    color: #000000;
+  }
+  
+  /* Стили для кнопок в тёмной теме */
+  .dark-theme .button {
+    background-color: #555555;
+    color: #ffffff;
+  }
+  
+  /* Дополнительное выделение для активной кнопки "Лайк" */
+  .like-button.active {
+    border: 2px solid red;
+  }
+  
